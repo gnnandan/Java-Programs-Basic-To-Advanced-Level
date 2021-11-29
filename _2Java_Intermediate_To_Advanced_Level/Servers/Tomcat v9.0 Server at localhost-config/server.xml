@@ -153,7 +153,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="Servlet Programs" path="/Servlet_Programs" reloadable="true" source="org.eclipse.jst.jee.server:Servlet Programs"/><Context docBase="JSP Programs" path="/JSP_Programs" reloadable="true" source="org.eclipse.jst.jee.server:JSP Programs"/><Context docBase="Servlet_And_Frontend(HTML, JSP)" path="/Servlet_And_Frontend_HTML_JSP" reloadable="true" source="org.eclipse.jst.jee.server:Servlet_And_Frontend(HTML, JSP)"/><Context docBase="Simple Servlet Application" path="/Simple_Servlet_Application" reloadable="true" source="org.eclipse.jst.jee.server:Simple Servlet Application"/></Host>
+      <Context docBase="Servlet Programs" path="/Servlet_Programs" reloadable="true" source="org.eclipse.jst.jee.server:Servlet Programs"/><Context docBase="JSP Programs" path="/JSP_Programs" reloadable="true" source="org.eclipse.jst.jee.server:JSP Programs"/><Context docBase="Servlet_And_Frontend(HTML, JSP)" path="/Servlet_And_Frontend_HTML_JSP" reloadable="true" source="org.eclipse.jst.jee.server:Servlet_And_Frontend(HTML, JSP)"/><Context docBase="Simple Servlet Application" path="/Simple_Servlet_Application" reloadable="true" source="org.eclipse.jst.jee.server:Simple Servlet Application"/><Context docBase="Important JSP Concepts" path="/Important_JSP_Concepts" reloadable="true" source="org.eclipse.jst.jee.server:Important JSP Concepts"/></Host>
     </Engine>
   </Service>
 </Server>
