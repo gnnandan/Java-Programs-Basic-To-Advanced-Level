@@ -7,7 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%@ page import="Concept_2_ReadingClasses.userDefinedClassEx" %>
-<%out.print(new userDefinedClassEx().test()); %>
+<%@ page import="Concept_2_ReadingClasses._2_userDefinedClassEx" %>
+<%out.print(new _2_userDefinedClassEx().test()); %>
+
+<%out.print(new _2_userDefinedClassEx().test2()); %>
+
 </body>
 </html>
