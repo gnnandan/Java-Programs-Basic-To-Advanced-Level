@@ -7,6 +7,6 @@
 <title>JSP Page</title>
 </head>
 <body>
-		<% out.println("This is JAVA SERVER PAGE");%>
+<% out.println("This is JAVA SERVER PAGE");%>
 </body>
 </html>
